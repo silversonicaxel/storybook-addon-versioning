@@ -1,0 +1,12 @@
+import { addons, types } from '@storybook/addons'
+import { ADDON_ID, ADDON_TOOL_ID } from './constants'
+import VersionTag from './views/VersionTag'
+
+addons.register(ADDON_ID, () => {
+  addons.add(ADDON_TOOL_ID, {
+    type: types.TOOL,
+    title: 'Version',
+    match: ({ viewMode }) => ['docs', 'story'].includes(viewMode),
+    render: VersionTag
+  })
+})
