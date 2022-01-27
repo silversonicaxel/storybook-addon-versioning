@@ -9,6 +9,9 @@ export default {
       major: '1',
       minor: '2', 
       patch: '3',
+      style: {
+        color: 'red'
+      }
     },
     myAddonParameter: `
 <MyComponent boolProp scalarProp={1} complexProp={{ foo: 1, bar: '2' }}>
