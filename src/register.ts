@@ -6,7 +6,7 @@ addons.register(ADDON_ID, () => {
   addons.add(ADDON_TOOL_ID, {
     type: types.TOOL,
     title: 'Version',
-    match: ({ viewMode }) => ['docs', 'story'].includes(viewMode),
+    match: () => true,
     render: VersionTag
   })
 })

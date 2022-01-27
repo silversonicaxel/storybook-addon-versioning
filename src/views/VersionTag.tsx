@@ -2,7 +2,7 @@ import React from 'react'
 import { useParameter } from '@storybook/api'
 import { styled, css } from '@storybook/theming'
 import { ADDON_PARAM_KEY } from '../constants'
-import type { AddonParameters } from '../types'
+import type { AddonParamVersion } from '../types'
 
 const textStyles = css`
   align-self: center;
@@ -19,23 +19,18 @@ const textStyles = css`
 const TextTag = styled.span`
   ${textStyles}
 `
-
 const VersionTag = () => {
-  const parameters = useParameter(
-    ADDON_PARAM_KEY,
-    null,
-  ) as AddonParameters | null
+  const parameters: AddonParamVersion = useParameter(ADDON_PARAM_KEY, null)
 
   if (parameters === null) {
     return null
   }
 
-  const { version } = parameters
+  const { major, minor, patch, postfix } = parameters
 
-  const baseVersion = `${version.major}.${version.minor}.${version.patch}`
-  const extraVersion = version.postfix ? `-${version.postfix}` : ''
+  const baseVersion = `${major}.${minor}.${patch}`
+  const extraVersion = postfix ? `-${postfix}` : ''
   const text = `${baseVersion}${extraVersion}`
-
 
   return (
     <>
