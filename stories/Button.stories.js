@@ -6,9 +6,9 @@ export default {
   component: Button,
   parameters: {
     version: {
-      major: 1,
-      minor: 2, 
-      patch: 3
+      major: '1',
+      minor: '2', 
+      patch: '3',
     },
     myAddonParameter: `
 <MyComponent boolProp scalarProp={1} complexProp={{ foo: 1, bar: '2' }}>

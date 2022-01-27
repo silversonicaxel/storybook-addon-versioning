@@ -12,7 +12,6 @@ const textStyles = css`
   line-height: 20px;
   padding: 0 0.5em;
   text-decoration: none;
-  text-transform: uppercase;
   user-select: none;
 `
 
