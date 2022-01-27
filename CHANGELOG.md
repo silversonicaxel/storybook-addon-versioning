@@ -1,4 +1,4 @@
-# v0.0.2 (Thu Jan 27 2022)
+# v0.0.3 (Thu Jan 28 2022)
 
 #### ⚠️ Pushed to `main`
 

@@ -4,8 +4,10 @@
   "description": "Add package or component version to the Storybook toolbar",
   "keywords": [
     "storybook-addons",
-    "style",
-    "test"
+    "storybook-version",
+    "toolbar",
+    "version",
+    "versioning"
   ],
   "repository": {
     "type": "git",
