@@ -1,3 +1,9 @@
+# v0.0.2 (Fri Jan 28 2022)
+
+
+
+---
+
 # v0.0.1 (Fri Jan 28 2022)
 
 #### ⚠️ Pushed to `main`
