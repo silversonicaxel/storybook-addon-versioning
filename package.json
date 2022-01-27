@@ -1,5 +1,5 @@
 {
-  "name": "storybook-addon-kit",
+  "name": "storybook-version",
   "version": "0.0.0",
   "description": "Add package or component version to the Storybook toolbar",
   "keywords": [
