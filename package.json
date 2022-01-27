@@ -1,7 +1,7 @@
 {
   "name": "storybook-addon-kit",
   "version": "0.0.0",
-  "description": "everything you need to build a Storybook addon",
+  "description": "Add package or component version to the Storybook toolbar",
   "keywords": [
     "storybook-addons",
     "style",
@@ -9,9 +9,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/storybookjs/storybook-addon-kit"
+    "url": "https://github.com/silversonicaxel/storybook-addon-versioning"
   },
-  "author": "winkerVSbecks",
+  "author": {
+    "name": "Alessandro (silversonicaxel) Rabitti",
+    "url": "https://github.com/silversonicaxel"
+  },
   "license": "MIT",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
@@ -81,12 +84,14 @@
     "access": "public"
   },
   "storybook": {
-    "displayName": "Addon Kit",
+    "displayName": "Addon Version",
     "supportedFrameworks": [
-      "react",
+      "react"
+    ],
+    "unsupportedFrameworks": [
       "vue",
       "angular"
     ],
-    "icon": "https://user-images.githubusercontent.com/321738/63501763-88dbf600-c4cc-11e9-96cd-94adadc2fd72.png"
+    "icon": "https://raw.githubusercontent.com/silversonicaxel/storybook-addon-versioning/main/icon.png?token=GHSAT0AAAAAABP3W4WMKXQMTM5BH3XXX3MWYPTECQA"
   }
 }
