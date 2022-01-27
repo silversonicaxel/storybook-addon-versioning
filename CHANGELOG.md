@@ -1,3 +1,15 @@
+# v0.0.4 (Thu Jan 27 2022)
+
+#### ⚠️ Pushed to `main`
+
+- Change package.json keywords ([@silversonicaxel](https://github.com/silversonicaxel))
+
+#### Authors: 1
+
+- Alessandro Rabitti ([@silversonicaxel](https://github.com/silversonicaxel))
+
+---
+
 # v0.0.3 (Thu Jan 28 2022)
 
 #### ⚠️ Pushed to `main`
