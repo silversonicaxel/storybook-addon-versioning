@@ -1,3 +1,15 @@
+# v0.0.2 (Thu Jan 27 2022)
+
+#### ⚠️ Pushed to `main`
+
+- Merge branch 'main' of github.com:silversonicaxel/storybook-addon-versioning ([@silversonicaxel](https://github.com/silversonicaxel))
+
+#### Authors: 1
+
+- Alessandro Rabitti ([@silversonicaxel](https://github.com/silversonicaxel))
+
+---
+
 # v0.0.2 (Fri Jan 28 2022)
 
 
