@@ -16,6 +16,9 @@ const VersionTag = () => {
   const baseVersion = `${major}.${minor}.${patch}`
   const extraVersion = postfix ? `-${postfix}` : ''
   const text = `${baseVersion}${extraVersion}`
+  
+  const extraStyle = style && Object.entries(style)
+    .map(([cssProperty, cssValue]: [string, string]) => `${cssProperty}: ${cssValue};`)
 
   const defaultStyle = css`
     align-self: center;
@@ -27,6 +30,7 @@ const VersionTag = () => {
     text-decoration: none;
     text-transform: uppercase;
     user-select: none;
+    ${extraStyle}
   `
 
   const TextTag = styled.span`

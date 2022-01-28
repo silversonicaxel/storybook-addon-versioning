@@ -10,7 +10,9 @@ export default {
       minor: '2', 
       patch: '3',
       style: {
-        color: 'red'
+        color: 'red',
+        'font-weight': '900',
+        'font-size': '24px'
       }
     },
     myAddonParameter: `
