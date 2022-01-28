@@ -4,5 +4,8 @@ export type AddonParamVersion =
     minor: string
     patch: string
     postfix?: string
+    style?: {
+      [key: string]: string
+    }
   }
   | null
