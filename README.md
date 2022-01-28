@@ -4,7 +4,7 @@ The Addon Version is used to highlight the version of a component or of a packag
 ## Installation
 
 ```sh
-npm install @silversonicaxel/storybook-addon-version --save-dev
+npm install storybook-version --save-dev
 ```
 
 ## Basic Setup
@@ -13,7 +13,7 @@ Add the following code in the `main.js` of your Storybook configuration:
 
 ```js
 module.exports = {
-  addons: ['@silversonicaxel/storybook-addon-version'],
+  addons: ['storybook-version'],
 };
 ```
 
@@ -23,7 +23,7 @@ Set the parameters of your story with the key value `version` in order to provid
 export const parameters = {
   version: {
     major: '1',
-    minor: '2', 
+    minor: '2',
     patch: '3'
   }
 }
@@ -41,7 +41,7 @@ export default {
   parameters: {
     version: {
       major: '4',
-      minor: '2', 
+      minor: '2',
       patch: '0',
       postfix: 'rc3'
     }
