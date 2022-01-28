@@ -12,8 +12,8 @@ export default {
       style: {
         color: 'red',
         'font-weight': '900',
-        'font-size': '24px'
-      }
+        'font-size': '24px',
+      },
     },
     myAddonParameter: `
 <MyComponent boolProp scalarProp={1} complexProp={{ foo: 1, bar: '2' }}>
