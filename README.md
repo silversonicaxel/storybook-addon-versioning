@@ -1,6 +1,6 @@
 # Storybook Addon Version
 
-The Addon Version is used to highlight the version of a component or of a package within [Storybook](https://storybook.js.org) toolbar.
+The [Storybook Addon Version](https://storybook.js.org/addons/storybook-version/) is used to highlight the version of a component or of a package within [Storybook](https://storybook.js.org) toolbar.
 ## Installation
 
 ```sh
