@@ -17,7 +17,19 @@ module.exports = {
 };
 ```
 
-Set the parameters of your story with the key value `version` in order to provide the necessary information to be displayed
+Set the parameters of your story with the key value `version` in order to provide the necessary information to be displayed.
+
+**Configuration**
+
+| Property | Required | Type of Value | Description | Example |
+|---|---|---|---|---|
+| major | ✔ | string | Major version | '1' |
+| minor | ✔ | string | Minor version | '2' |
+| patch | ✔ | string | Patch version | '3' |
+| postfix | | string | Postifx version extra data | 'beta.1'
+| style | | object of keys string and values string  | Extra css properties to overwrite default style of the Version | '{ 'color' : 'red', 'border-width': '2px' }' |
+
+**Implementation**
 
 ```js
 export const parameters = {
@@ -29,7 +41,7 @@ export const parameters = {
 }
 ```
 
-## Story Setup
+## Story Setup Example
 
 Add the `version` parameter in the default Story configuration:
 
@@ -43,7 +55,12 @@ export default {
       major: '4',
       minor: '2',
       patch: '0',
-      postfix: 'rc3'
+      postfix: 'rc3',
+      style: {
+        color: 'red',
+        'font-weight': '900',
+        'font-size': '24px'
+      }
     }
   }
 }
