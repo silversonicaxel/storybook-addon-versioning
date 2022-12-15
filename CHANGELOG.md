@@ -1,3 +1,15 @@
+# v0.1.1 (Thu Dec 15 2022)
+
+#### 🐛 Bug Fix
+
+- Add support in peerDependencies of react and react-dom to version ^18… [#3](https://github.com/silversonicaxel/storybook-addon-versioning/pull/3) ([@silversonicaxel](https://github.com/silversonicaxel))
+
+#### Authors: 1
+
+- Alessandro Rabitti ([@silversonicaxel](https://github.com/silversonicaxel))
+
+---
+
 # v0.1.0 (Fri Jan 28 2022)
 
 #### 🚀 Enhancement
