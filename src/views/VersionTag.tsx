@@ -1,5 +1,5 @@
 import React from 'react'
-import { useParameter } from '@storybook/api'
+import { useParameter } from '@storybook/manager-api'
 import { styled, css } from '@storybook/theming'
 import { ADDON_PARAM_KEY } from '../constants'
 import type { AddonParamVersion } from '../types'
