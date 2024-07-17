@@ -1,4 +1,4 @@
-import { addons, types } from '@storybook/addons'
+import { addons, types } from '@storybook/manager-api'
 import { ADDON_ID, ADDON_TOOL_ID } from './constants'
 import VersionTag from './views/VersionTag'
 
