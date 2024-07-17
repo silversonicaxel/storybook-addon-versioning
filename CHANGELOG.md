@@ -1,3 +1,21 @@
+# v0.1.2 (Wed Jul 17 2024)
+
+#### 🐛 Bug Fix
+
+- Migrate to Storybook 8 [#6](https://github.com/silversonicaxel/storybook-addon-versioning/pull/6) ([@feesler](https://github.com/feesler))
+
+#### ⚠️ Pushed to `main`
+
+- Update dedent and boxen libs ([@silversonicaxel](https://github.com/silversonicaxel))
+- Update github release.yml file ([@silversonicaxel](https://github.com/silversonicaxel))
+
+#### Authors: 2
+
+- Alessandro Rabitti ([@silversonicaxel](https://github.com/silversonicaxel))
+- Ilya Makarov ([@feesler](https://github.com/feesler))
+
+---
+
 # v0.1.1 (Thu Dec 15 2022)
 
 #### 🐛 Bug Fix
