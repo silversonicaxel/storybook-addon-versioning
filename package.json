@@ -50,9 +50,11 @@
     "@babel/preset-env": "^7.24.8",
     "@babel/preset-react": "^7.24.7",
     "@babel/preset-typescript": "^7.24.7",
+    "@storybook/addon-docs": "^9.0.15",
     "@storybook/cli": "^9.0.15",
     "@storybook/react-vite": "^9.0.15",
     "@types/dedent": "^0.7.2",
+    "@types/react": "^18.0.0",
     "@vitejs/plugin-react": "^4.3.1",
     "auto": "^11.1.6",
     "boxen": "^8.0.0",
@@ -66,13 +68,12 @@
     "storybook": "^9.0.15",
     "typescript": "^5.5.3",
     "vite": "^5.3.4",
-    "zx": "^8.1.4",
-    "@storybook/addon-docs": "^9.0.15"
+    "zx": "^8.1.4"
   },
   "peerDependencies": {
-    "storybook": "^9.0.15",
     "react": "^18.0.0",
-    "react-dom": "^18.0.0"
+    "react-dom": "^18.0.0",
+    "storybook": "^9.0.15"
   },
   "peerDependenciesMeta": {
     "react": {
