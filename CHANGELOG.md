@@ -1,3 +1,18 @@
+# v0.1.3 (Sat Jul 26 2025)
+
+#### 🐛 Bug Fix
+
+- Add versions guideline [#11](https://github.com/silversonicaxel/storybook-addon-versioning/pull/11) ([@silversonicaxel](https://github.com/silversonicaxel))
+- Update yarnlock [#10](https://github.com/silversonicaxel/storybook-addon-versioning/pull/10) ([@silversonicaxel](https://github.com/silversonicaxel))
+- Upgrade storybook to v9 [#9](https://github.com/silversonicaxel/storybook-addon-versioning/pull/9) ([@AntonTroll](https://github.com/AntonTroll))
+
+#### Authors: 2
+
+- Alessandro Rabitti ([@silversonicaxel](https://github.com/silversonicaxel))
+- Anton Troll ([@AntonTroll](https://github.com/AntonTroll))
+
+---
+
 # v0.1.2 (Wed Jul 17 2024)
 
 #### 🐛 Bug Fix
