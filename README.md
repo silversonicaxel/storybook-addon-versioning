@@ -65,3 +65,10 @@ export default {
   }
 }
 ```
+
+## Versions guideline
+
+| Storybook version | Addon latest supported version |
+|---|---|
+| `6` | `0.1.1` |
+| `8` | `0.1.2` |
