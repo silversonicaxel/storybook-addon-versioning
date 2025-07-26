@@ -1,3 +1,15 @@
+# v0.1.4 (Sat Jul 26 2025)
+
+#### 🐛 Bug Fix
+
+- Add latest version version guideline [#12](https://github.com/silversonicaxel/storybook-addon-versioning/pull/12) ([@silversonicaxel](https://github.com/silversonicaxel))
+
+#### Authors: 1
+
+- Alessandro Rabitti ([@silversonicaxel](https://github.com/silversonicaxel))
+
+---
+
 # v0.1.3 (Sat Jul 26 2025)
 
 #### 🐛 Bug Fix
