@@ -1,6 +1,6 @@
 {
   "name": "storybook-version",
-  "version": "0.1.4",
+  "version": "0.2.0",
   "description": "Add package or component version to the Storybook toolbar",
   "keywords": [
     "storybook-addons",
@@ -70,7 +70,7 @@
     "react-dom": "^18.0.0",
     "rimraf": "^6.0.1",
     "storybook": "^10.2.19",
-    "typescript": "^5.5.3",
+    "typescript": "^5.9.3",
     "vite": "^5.3.4",
     "zx": "^8.1.4"
   },
