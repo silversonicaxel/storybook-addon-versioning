@@ -60,7 +60,7 @@
     "@types/dedent": "^0.7.2",
     "@types/react": "^18.0.0",
     "@vitejs/plugin-react": "^4.3.1",
-    "auto": "^11.1.6",
+    "auto": "^11.3.6",
     "boxen": "^8.0.0",
     "concurrently": "^8.2.2",
     "dedent": "^1.5.3",
