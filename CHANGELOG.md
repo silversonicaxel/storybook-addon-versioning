@@ -1,3 +1,16 @@
+# v0.1.5 (Tue Mar 17 2026)
+
+#### ⚠️ Pushed to `main`
+
+- Update release.yml file (alessandro.rabitti@whiffle.nl)
+- Migrate Storybook to version 10 (alessandro.rabitti@whiffle.nl)
+
+#### Authors: 1
+
+- Alessandro Rabitti ([@silversonicaxel](https://github.com/silversonicaxel))
+
+---
+
 # v0.1.4 (Sat Jul 26 2025)
 
 #### 🐛 Bug Fix
