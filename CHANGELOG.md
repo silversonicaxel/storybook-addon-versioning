@@ -1,3 +1,15 @@
+# v0.1.6 (Tue Mar 17 2026)
+
+#### ⚠️ Pushed to `main`
+
+- Update guidelines (alessandro.rabitti@whiffle.nl)
+
+#### Authors: 1
+
+- Alessandro Rabitti (alessandro.rabitti@whiffle.nl)
+
+---
+
 # v0.1.5 (Tue Mar 17 2026)
 
 #### ⚠️ Pushed to `main`
