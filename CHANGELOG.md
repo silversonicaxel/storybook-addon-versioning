@@ -1,3 +1,15 @@
+# v0.1.8 (Fri Mar 20 2026)
+
+#### ⚠️ Pushed to `main`
+
+- Refactor full structure (alessandro.rabitti@whiffle.nl)
+
+#### Authors: 1
+
+- Alessandro Rabitti (alessandro.rabitti@whiffle.nl)
+
+---
+
 # v0.1.7 (Fri Mar 20 2026)
 
 #### ⚠️ Pushed to `main`
