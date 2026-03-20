@@ -87,6 +87,12 @@
       "optional": true
     }
   },
+  "files": [
+    "dist",
+    "preset.ts",
+    "README.md",
+    "icon.png"
+  ],
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
