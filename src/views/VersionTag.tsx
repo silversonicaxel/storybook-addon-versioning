@@ -18,7 +18,7 @@ const VersionTag = () => {
   const text = `${baseVersion}${extraVersion}`
   
   const extraStyle = style && Object.entries(style)
-    .map(([cssProperty, cssValue]: [string, string]) => `${cssProperty}: ${cssValue};`)
+    .map(([cssProperty, cssValue]) => `${cssProperty}: ${cssValue};`)
 
   const defaultStyle = css`
     align-self: center;

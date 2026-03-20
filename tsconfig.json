@@ -1,26 +1,15 @@
 {
   "compilerOptions": {
-    "allowSyntheticDefaultImports": true,
-    "baseUrl": ".",
-    "emitDecoratorMetadata": true,
-    "esModuleInterop": true,
-    "experimentalDecorators": true,
-    "incremental": false,
-    "isolatedModules": true,
-    "jsx": "react",
-    "lib": [
-      "esnext",
-      "dom",
-      "dom.iterable"
-    ],
-    "module": "preserve",
+    "target": "ES2019",
+    "module": "ESNext",
     "moduleResolution": "bundler",
-    "noImplicitAny": true,
-    "rootDir": ".",
+    "jsx": "react-jsx",
+    "strict": true,
     "skipLibCheck": true,
-    "target": "esnext"
+    "esModuleInterop": true,
+    "rootDir": "./src",
+    "outDir": "./dist"
   },
-  "include": [
-    "src/**/*"
-  ]
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist"]
 }
