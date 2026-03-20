@@ -1,35 +1,48 @@
 # Storybook Addon Version
 
-The [Storybook Addon Version](https://storybook.js.org/addons/storybook-version/) is used to highlight the version of a component or of a package within [Storybook](https://storybook.js.org) toolbar.
+[![npm version](https://badge.fury.io/js/storybook-version.svg)](https://www.npmjs.com/package/storybook-version)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+[Storybook Addon Version](https://storybook.js.org/addons/storybook-version/) displays the version of a component or package directly in the [Storybook](https://storybook.js.org) toolbar, making it easy to identify which version is currently being viewed.
+
 ## Installation
 
 ```sh
 npm install storybook-version --save-dev
 ```
 
-## Basic Setup
+## Setup
 
-Add the following code in the `main.js` of your Storybook configuration:
+### 1. Register the addon
+
+Add the addon to the `addons` array in your Storybook `main` configuration file:
 
 ```js
-module.exports = {
-  addons: ['storybook-version'],
+const config: StorybookConfig = {
+    addons: ["storybook-version"],
 };
+
+export default config;
+
 ```
 
-Set the parameters of your story with the key value `version` in order to provide the necessary information to be displayed.
+### 2. Configure version parameters
 
-**Configuration**
+Set the `version` parameter in your story to provide the version information to display.
 
-| Property | Required | Type of Value | Description | Example |
+#### Parameters
+
+| Property | Required | Type | Description | Example |
 |---|---|---|---|---|
-| major | ✔ | string | Major version | '1' |
-| minor | ✔ | string | Minor version | '2' |
-| patch | ✔ | string | Patch version | '3' |
-| postfix | | string | Postifx version extra data | 'beta.1'
-| style | | object of keys string and values string  | Extra css properties to overwrite default style of the Version | '{ 'color' : 'red', 'border-width': '2px' }' |
+| `major` | ✔ | `string` | Major version number | `'1'` |
+| `minor` | ✔ | `string` | Minor version number | `'2'` |
+| `patch` | ✔ | `string` | Patch version number | `'3'` |
+| `postfix` | | `string` | Additional version label (e.g. pre-release identifier) | `'beta.1'` |
+| `style` | | `Record<string, string>` | CSS properties to override the default toolbar badge style | `{ color: 'red', 'border-width': '2px' }` |
 
-**Implementation**
+#### Global configuration
+
+To apply a version across all stories, set the parameter globally in your `preview`:
 
 ```js
 export const parameters = {
@@ -41,9 +54,9 @@ export const parameters = {
 }
 ```
 
-## Story Setup Example
+## Story-level Example
 
-Add the `version` parameter in the default Story configuration:
+Override or set the version for a specific story by adding the `version` parameter to its default export:
 
 ```js
 import React from 'react'
@@ -66,7 +79,9 @@ export default {
 }
 ```
 
-## Versions guideline
+> Story-level parameters take precedence over global parameters, allowing you to show different versions per component.
+
+## Storybook compatibility
 
 | Storybook version | Addon latest supported version |
 |---|---|
