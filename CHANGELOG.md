@@ -1,3 +1,17 @@
+# v0.1.7 (Fri Mar 20 2026)
+
+#### ⚠️ Pushed to `main`
+
+- Fix dist files (alessandro.rabitti@whiffle.nl)
+- Fix npm registry (alessandro.rabitti@whiffle.nl)
+- Improve README.md (alessandro.rabitti@whiffle.nl)
+
+#### Authors: 1
+
+- Alessandro Rabitti ([@silversonicaxel](https://github.com/silversonicaxel))
+
+---
+
 # v0.1.6 (Tue Mar 17 2026)
 
 #### ⚠️ Pushed to `main`
